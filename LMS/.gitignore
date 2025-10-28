@@ -1,0 +1,37 @@
+# Build directories
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/nbproject/private/
+
+# NetBeans project settings
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
+
+# Compiled class files
+*.class
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Library jars (optional if big size)
+lib/*.jar
+
+# Sensitive configs
+*.env
+*.properties
+dbconfig.txt
