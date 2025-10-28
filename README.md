@@ -38,6 +38,21 @@ It provides a secure and efficient way to handle data, eliminating manual errors
 
 ---
 
+💾 Download Ready-to-Use Version
+
+You can directly download the latest executable from GitHub Releases:
+
+👉 Download BookPilot Manager JAR
+
+Then run:
+
+java -jar LMS.jar
+
+
+
+
+---
+
 🏗 Tech Stack
 
 Category	Technology
