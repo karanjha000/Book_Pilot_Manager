@@ -3,8 +3,8 @@ services:
     name: bookpilot-manager
     env: java
     plan: free
-    buildCommand: "javac -d out $(find src -name '*.java')"
+    buildCommand: "echo 'Using prebuilt JAR file — no compilation needed'"
     startCommand: "java -jar dist/BookPilotManager.jar"
     envVars:
       - key: PORT
-        value: 99999
+        value: 10000
